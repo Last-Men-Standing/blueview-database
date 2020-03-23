@@ -1,39 +1,39 @@
 COPY department (id, data_id, name, address, zipcode, overall_rating) FROM stdin;
 0	0	"Albany County Sheriff\'s Department"		"16 Eagle St, Albany, NY"					12207	5
 1	0	"Albany Police Department"					"165 Henry Johnson Blvd, Albany, NY"		12210	5
-2	0	"Colonie Police Department"					"312 Wolf Road Latham, NY"					12110	5
-3	0	"Guilderland Police Department"				"5209 Western Turnpikem Guilderland, NY"	12084	5
+2	0	"Colonie Police Department"					"312 Wolf Road, Latham, NY"					12110	5
+3	0	"Guilderland Police Department"				"5209 Western Turnpike, Guilderland, NY"	12084	5
 4	0	"Watervliet Police Department"				"2 15th St Watervliet, NY"					12189	5
-5	0	"Cohoes Police Department"					"97 Mohawk St Cohoes, NY"					12047	5
-6	0	"Altamont Police Department"				"115 Main St Altamont, NY"					12009	5
-7	0	"Menands Police Department"					"250 Broadway Menands, NY"					12204	5
-8	0	"Ravena Police Department"					"18 Russell Ave Ravena, NY"					12143	5
-9	0	"Green Island Police Department"			"73 George St Green Island, NY"				12183	5
+5	0	"Cohoes Police Department"					"97 Mohawk St, Cohoes, NY"					12047	5
+6	0	"Altamont Police Department"				"115 Main St, Altamont, NY"					12009	5
+7	0	"Menands Police Department"					"250 Broadway, Menands, NY"					12204	5
+8	0	"Ravena Police Department"					"18 Russell Ave, Ravena, NY"				12143	5
+9	0	"Green Island Police Department"			"73 George St, Green Island, NY"			12183	5
 
-10	0	"Columbia County Sheriff\'s Office"			"85 Industrial Tract Hudson, NY"			12534	5
-11	0	"Hudson Police Department"					"701a Union St Hudson, NY"					12534	5
-12	0	"Chatham Police Department"					"77 Main St Chatham, NY"					12037	5
+10	0	"Columbia County Sheriff\'s Office"			"85 Industrial Tract, Hudson, NY"			12534	5
+11	0	"Hudson Police Department"					"701a Union St, Hudson, NY"					12534	5
+12	0	"Chatham Police Department"					"77 Main St, Chatham, NY"					12037	5
 13	0	"Philmont Police Department"				"Maple Ave, Philmont, NY"					12565	5
 
-14	0	"Fulton Police Department"					"141 S 1st St Fulton, NY"					13069	5
-15	0	"Fulton County Sheriff\'s Department"		"2712 NY-29 Johnstown, NY"					12095	5
-16	0	"Gloversville Police Department"			"3 Frontage Rd Gloversville, NY"			12078	5
+14	0	"Fulton Police Department"					"141 S 1st St, Fulton, NY"					13069	5
+15	0	"Fulton County Sheriff\'s Department"		"2712 NY-29, Johnstown, NY"					12095	5
+16	0	"Gloversville Police Department"			"3 Frontage Rd, Gloversville, NY"			12078	5
 17	0	"Johnstown Police Department"				"41 E Main St, Johnstown NY"				12095	5
-18	0	"Northville Police Department"				"100 S 2nd St Northville, NY"				12134	5
+18	0	"Northville Police Department"				"100 S 2nd St, Northville, NY"				12134	5
 
-19	0	"Greene Police Department"					"49 Genesee St Greene, NY"					13778	5
-20	0	"Athens Police Department"					"2 1st St #1 Athens, NY"					12015	5
-21	0	"Cairo Police Department"					"16 Railroad Ave Cairo, NY"					12413	5
-22	0	"Catskill Police Department"				"422 Main St Catskill, NY"					12414	5
-23	0	"Coxsackie Police Department"				"119 Mansion St Coxsackie, NY"				12051	5
-24	0	"Durham Police Department"					"7309 NY-81 East Durham, NY"				12423	5
+19	0	"Greene Police Department"					"49 Genesee St, Greene, NY"					13778	5
+20	0	"Athens Police Department"					"2 1st St #1, Athens, NY"					12015	5
+21	0	"Cairo Police Department"					"16 Railroad Ave, Cairo, NY"				12413	5
+22	0	"Catskill Police Department"				"422 Main St, Catskill, NY"					12414	5
+23	0	"Coxsackie Police Department"				"119 Mansion St, Coxsackie, NY"				12051	5
+24	0	"Durham Police Department"					"7309 NY-81, East Durham, NY"				12423	5
 25	0	"Hunter Police Department"					"Tannersville, NY"							12485	5
-26	0	"Prattsville Police Department"				"14517 Main St Prattsville, NY"				12468	5
-27	0	"Windham Police Department"					"371 NY-296 Hensonville, NY"			 	12439	5
+26	0	"Prattsville Police Department"				"14517 Main St, Prattsville, NY"			12468	5
+27	0	"Windham Police Department"					"371 NY-296, Hensonville, NY"			 	12439	5
 
-28	0	"Montgomery County Sheriff\'s Office"		"200 Clark Dr Fultonville, NY"				12072	5
+28	0	"Montgomery County Sheriff\'s Office"		"200 Clark Dr, Fultonville, NY"				12072	5
 29	0	"Amsterdam Police Department"				"1 Guy Park Ext, Amsterdam, NY"				12010	5
-30	0	"Canajoharie Police Department"				"75 Erie Blvd Canajoharie, NY"				13317	5
+30	0	"Canajoharie Police Department"				"75 Erie Blvd, Canajoharie, NY"				13317	5
 31	0	"Fort Plains Police Department"				"168 Canal St, Fort Plain, NY"				13339	5
 
 32	0	"Rensselaer Police Department"				"201 Broadway, Rensselaer, NY"				12144	5
