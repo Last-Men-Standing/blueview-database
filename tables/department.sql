@@ -1,4 +1,4 @@
-CREATE TABLE Department (
+CREATE TABLE department (
     id VARCHAR(63) NOT NULL,
     data_id VARCHAR(63) NOT NULL,
     name VARCHAR(255) NOT NULL,

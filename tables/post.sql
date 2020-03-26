@@ -1,4 +1,4 @@
-CREATE TABLE Post(
+CREATE TABLE post (
     id VARCHAR(63) NOT NULL,
     timestamp TIMESTAMP NOT NULL,
     date_of_incident DATE NOT NULL,
