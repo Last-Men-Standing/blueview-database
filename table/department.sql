@@ -1,6 +1,5 @@
 CREATE TABLE Department (
-    id VARCHAR(63) NOT NULL,
-    data_id VARCHAR(63) NOT NULL,
+    id INT IDENTITY(0,1),
     name VARCHAR(255) NOT NULL,
     address VARCHAR(255) NOT NULL,
     zipcode VARCHAR(10) NOT NULL,
