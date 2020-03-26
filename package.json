@@ -1,0 +1,22 @@
+{
+  "name": "blueview-database",
+  "version": "1.0.0",
+  "description": "Schemas, static definitions, and scripts for BlueView DBMS. ",
+  "main": "index.js",
+  "scripts": {
+    "db": ". etc/local.env && node ./build_database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Last-Men-Standing/blueview-database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Last-Men-Standing/blueview-database/issues"
+  },
+  "homepage": "https://github.com/Last-Men-Standing/blueview-database#readme",
+  "dependencies": {
+    "pg": "^7.18.2"
+  }
+}

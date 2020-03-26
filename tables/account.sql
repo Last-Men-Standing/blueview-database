@@ -1,4 +1,4 @@
-CREATE TABLE User(
+CREATE TABLE account (
     id VARCHAR(63) NOT NULL,
     department_id VARCHAR(63) NOT NULL,
     firstName VARCHAR(31) NOT NULL,

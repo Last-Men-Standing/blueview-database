@@ -1,4 +1,4 @@
-CREATE TABLE PostReply(
+CREATE TABLE post_reply (
     reply_id VARCHAR(63) NOT NULL,
     parent_post_id VARCHAR(63) NOT NULL,
     timestamp TIMESTAMP NOT NULL,
