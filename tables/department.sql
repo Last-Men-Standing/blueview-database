@@ -1,4 +1,4 @@
-CREATE TABLE Department (
+CREATE TABLE department (
     name VARCHAR(255) NOT NULL,
     address VARCHAR(255) NOT NULL,
     zipcode VARCHAR(10) NOT NULL,
