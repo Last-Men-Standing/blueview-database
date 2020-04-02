@@ -21,6 +21,8 @@ async function build() {
   catch (err) {
     console.error(`Definition build error: ${err}`);
   }
+
+  await stop();
 }
 
 setImmediate(async () => build());

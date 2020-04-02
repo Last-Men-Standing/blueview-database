@@ -8,11 +8,11 @@ const DEPARTMENT_SQL = fs
 const DEPARTMENT_DATA_SQL = fs
   .readFileSync(path.join(__dirname, "../tables/department_data.sql"))
   .toString();
-const POST_SQL = fs
-  .readFileSync(path.join(__dirname, "../tables/post.sql"))
-  .toString();
 const POST_REPLY_SQL = fs
   .readFileSync(path.join(__dirname, "../tables/post_reply.sql"))
+  .toString();
+const POST_SQL = fs
+  .readFileSync(path.join(__dirname, "../tables/post.sql"))
   .toString();
 const RATING_SQL = fs
   .readFileSync(path.join(__dirname, "../tables/rating.sql"))
@@ -28,8 +28,8 @@ const DEPARTMENT_DEFN_SQL = fs
 const ALL_TABLES = [
   DEPARTMENT_SQL,
   DEPARTMENT_DATA_SQL,
-  POST_SQL,
   POST_REPLY_SQL,
+  POST_SQL,
   RATING_SQL,
   USER_SQL
 ];
