@@ -7,4 +7,4 @@ CREATE TABLE post (
     title VARCHAR(63) NOT NULL, 
     body VARCHAR(1023) NOT NULL
 );
-
+GRANT ALL PRIVILEGES ON post TO bv_user;

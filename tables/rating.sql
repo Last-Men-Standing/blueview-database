@@ -7,4 +7,4 @@ CREATE TABLE rating (
     safety DECIMAL(2,1) NOT NULL CHECK (safety >= 0 AND safety <= 5),
     PRIMARY KEY (post_id)
 );
-
+GRANT ALL PRIVILEGES ON rating TO bv_user;

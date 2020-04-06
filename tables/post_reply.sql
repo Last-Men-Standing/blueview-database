@@ -5,4 +5,4 @@ CREATE TABLE post_reply (
     user_id INT NOT NULL,
     text VARCHAR(1023) NOT NULL
 );
-
+GRANT ALL PRIVILEGES ON post_reply TO bv_user;

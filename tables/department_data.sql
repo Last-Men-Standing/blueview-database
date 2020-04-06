@@ -8,4 +8,5 @@ CREATE TABLE department_data (
     safety DECIMAL(2,1) NOT NULL CHECK (safety >= 0 AND safety <= 5),
     PRIMARY KEY (department_id)
 );
+GRANT ALL PRIVILEGES ON department_data TO bv_user;
 

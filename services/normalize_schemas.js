@@ -20,7 +20,6 @@ const RATING_SQL = fs
 const USER_SQL = fs
   .readFileSync(path.join(__dirname, "../tables/account.sql"))
   .toString();
-
 const DEPARTMENT_DEFN_SQL = fs
   .readFileSync(path.join(__dirname, "../data/department-setup.sql"))
   .toString();

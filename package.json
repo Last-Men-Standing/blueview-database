@@ -4,7 +4,8 @@
   "description": "Schemas, static definitions, and scripts for BlueView DBMS. ",
   "main": "index.js",
   "scripts": {
-    "db": ". etc/local.env && node ./build_database.js"
+    "db": ". etc/local.env && node ./build_database.js",
+    "drop_tables": ". etc/local.env && node ./drop_tables.js"
   },
   "repository": {
     "type": "git",

@@ -6,4 +6,4 @@ CREATE TABLE department (
     overall_rating DECIMAL(3,2) NOT NULL CHECK (overall_rating >= 1 AND overall_rating <= 5)
    
 );
-
+GRANT ALL PRIVILEGES ON department TO bv_user;
