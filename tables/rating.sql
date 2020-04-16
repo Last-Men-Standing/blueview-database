@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS rating;
 CREATE TABLE rating (
     post_id INT NOT NULL,
     attitude  DECIMAL(2,1) NOT NULL CHECK (attitude >= 0 AND attitude <= 5),

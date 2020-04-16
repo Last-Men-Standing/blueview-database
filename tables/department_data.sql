@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS department_data;
 CREATE TABLE department_data (
     department_id INT NOT NULL,
     num_posts INT NOT NULL,
@@ -8,4 +9,3 @@ CREATE TABLE department_data (
     safety INT NOT NULL,
     PRIMARY KEY (department_id)
 );
-
