@@ -1,11 +1,11 @@
 CREATE TABLE department_data (
     department_id INT NOT NULL,
     num_posts INT NOT NULL,
-    attitude  DECIMAL(2,1) NOT NULL CHECK (attitude >= 0 AND attitude <= 5),
-    communication DECIMAL(2,1) NOT NULL CHECK (communication >= 0 AND communication <= 5),
-    efficiency DECIMAL(2,1) NOT NULL CHECK (efficiency >= 0 AND efficiency <= 5),
-    fairness DECIMAL(2,1) NOT NULL CHECK (fairness >= 0 AND fairness <= 5),
-    safety DECIMAL(2,1) NOT NULL CHECK (safety >= 0 AND safety <= 5),
+    attitude  INT NOT NULL,
+    communication INT NOT NULL,
+    efficiency INT NOT NULL,
+    fairness INT NOT NULL,
+    safety INT NOT NULL,
     PRIMARY KEY (department_id)
 );
 
