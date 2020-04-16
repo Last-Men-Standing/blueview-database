@@ -72,3 +72,14 @@ VALUES
 ('Hudson Falls Police Department','218 Main St, Hudson Falls, NY',				12839,	5),
 ('Whitehall Police Department','57 Skenesborough Dr, Whitehall, NY',			12887,	5),
 ('Washington County Sheriffs Office','399 Broadway, Fort Edward, NY',			12828,	5);
+INSERT INTO department_data(department_id, num_posts, attitude, communication, efficiency, fairness, safety)
+SELECT 
+    department.id,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+FROM 
+    department;
