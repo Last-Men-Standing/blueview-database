@@ -4,6 +4,9 @@ const { PG_USER, PG_PASSWORD, PG_HOST, PG_PORT, PG_DATABASE } = process.env;
 
 let pool;
 
+/**
+ * Reused database driver from backend service
+ */
 const start = async () => {
   pool = new pg.Pool({
     host: PG_HOST,

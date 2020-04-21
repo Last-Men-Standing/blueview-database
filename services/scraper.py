@@ -1,14 +1,19 @@
 import urllib.request
 import re
 
+# Scrapes and parses police department info from web
+
+
 def scrape_page(url):
     req = urllib.request.Request(url)
     resp = urllib.request.urlopen(req)
     return resp.read()
 
+
 county_name = "Washington".lower()
 
-respData = scrape_page("https://en.wikipedia.org/wiki/List_of_law_enforcement_agencies_in_New_York")
+respData = scrape_page(
+    "https://en.wikipedia.org/wiki/List_of_law_enforcement_agencies_in_New_York")
 departments = re.findall(r'<h2>(.*?)</div>', str(respData))
 county_agencies = re.findall(r'<li>(.*?)</li>', str(departments[3]))
 munic_agencies = re.findall(r'<li>(.*?)</li>', str(departments[4]))
@@ -35,9 +40,11 @@ for agency in munic_agencies:
         agency = agency[0:x]
     agency = agency.lower()
 
-rData = scrape_page("https://geographic.org/streetview/usa/ny/" + county_name + "/index.html")
+rData = scrape_page(
+    "https://geographic.org/streetview/usa/ny/" + county_name + "/index.html")
 
-cities = re.findall(r'<li><a href="(.*?)" alt ="(.*?)">(.*?)</a></li>', str(rData))
+cities = re.findall(
+    r'<li><a href="(.*?)" alt ="(.*?)">(.*?)</a></li>', str(rData))
 
 for i in range(len(cities)):
     cities[i] = cities[i][1]
@@ -49,4 +56,3 @@ for city in cities:
     for dep in munic_agencies:
         if city in dep:
             print(dep)
-

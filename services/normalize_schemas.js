@@ -2,6 +2,9 @@
 const fs = require("fs");
 const path = require("path");
 
+/**
+ * Imports all sql tables and data definitons, combines and exports as strings
+ */
 const DEPARTMENT_SQL = fs
   .readFileSync(path.join(__dirname, "../tables/department.sql"))
   .toString();
