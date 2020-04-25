@@ -9,4 +9,4 @@ CREATE TABLE department_data (
     safety INT NOT NULL,
     PRIMARY KEY (department_id)
 );
-GRANT ALL ON department_data TO bv_user;
+GRANT ALL PRIVILEGES ON department_data TO bv_user;
