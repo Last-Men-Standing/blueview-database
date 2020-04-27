@@ -6,4 +6,4 @@ CREATE TABLE account (
     username VARCHAR(20) NOT NULL,
     pass_hash VARCHAR(256) NOT NULL
 );
-GRANT ALL ON account TO bv_user;
+GRANT ALL PRIVILEGES ON account TO bv_user;

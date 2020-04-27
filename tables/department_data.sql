@@ -6,7 +6,6 @@ CREATE TABLE department_data (
     communication INT NOT NULL,
     efficiency INT NOT NULL,
     fairness INT NOT NULL,
-    safety INT NOT NULL,
-    PRIMARY KEY (department_id)
+    safety INT NOT NULL
 );
-GRANT ALL ON department_data TO bv_user;
+GRANT ALL PRIVILEGES ON department_data TO bv_user;

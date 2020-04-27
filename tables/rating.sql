@@ -8,4 +8,4 @@ CREATE TABLE rating (
     safety INT NOT NULL CHECK (safety >= 0 AND safety <= 5),
     PRIMARY KEY (post_id)
 );
-GRANT ALL ON rating TO bv_user;
+GRANT ALL PRIVILEGES ON rating TO bv_user;

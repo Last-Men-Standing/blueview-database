@@ -6,6 +6,7 @@ CREATE TABLE post (
     department_id INT NOT NULL,
     incident_date DATE NOT NULL,
     title VARCHAR(63) NOT NULL, 
-    body VARCHAR(1023) NOT NULL
+    body VARCHAR(1023) NOT NULL,
+    tag VARCHAR(256) NOT NULL
 );
-GRANT ALL ON post TO bv_user;
+GRANT ALL PRIVILEGES ON post TO bv_user;
