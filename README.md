@@ -70,6 +70,11 @@ Once in the sql prompt, run the following
 ```bash
 \dt
 ```
+Run the following to exit the psql prompt
+```bash
+\q
+```
+Run the following in the root directory to exit the build_script
 ```bash
 ^C
 ```
