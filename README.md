@@ -1,16 +1,17 @@
 <h2 align="center">Database Management System for BlueView </h2>
 
-> This repository contains SQl and corresponding scripts to setup and populate the database for BlueView
+> This repository contains SQL and corresponding scripts to setup and populate the database for BlueView
 
 
 _Authored by:_
 
 
 - William A. Zawilinski
-- Zack Allen
-- Anthony Chen
-- Joey Cengel
+- Joseph C. Cengel
 - Richard Drum
+- Anthony Chen
+- Zack Allen
+
 ---
 ## Development Environment
 
@@ -42,9 +43,9 @@ Start the postgres prompt with some variation of
 - `psql -U postgres postgres`
 - `sudo -u postgres psql postgres`
 depending on the specifics of your installation. 
-Use 
+
 - `\q`
-To exit the prompt
+Use this to exit the prompt
 
 ## Running the Initialization Script
 
