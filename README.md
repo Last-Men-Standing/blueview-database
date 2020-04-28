@@ -7,6 +7,11 @@ _Authored by:_
 
 
 - William A. Zawilinski
+- Joseph C. Cengel
+- Richard Drum
+- Anthony Chen
+- Zack Allen
+
 ---
 ## Development Environment
 
