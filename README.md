@@ -1,6 +1,6 @@
 <h2 align="center">Database Management System for BlueView </h2>
 
-> This repository contains SQl and corresponding scripts to setup and populate the database for BlueView
+> This repository contains SQL and corresponding scripts to setup and populate the database for BlueView
 
 
 _Authored by:_
@@ -38,9 +38,9 @@ Start the postgres prompt with some variation of
 - `psql -U postgres postgres`
 - `sudo -u postgres psql postgres`
 depending on the specifics of your installation. 
-Use 
+
 - `\q`
-To exit the prompt
+Use this to exit the prompt
 
 ## Running the Initialization Script
 
