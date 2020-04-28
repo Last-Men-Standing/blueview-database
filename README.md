@@ -7,6 +7,10 @@ _Authored by:_
 
 
 - William A. Zawilinski
+- Zack Allen
+- Anthony Chen
+- Joey Cengel
+- Richard Drum
 ---
 ## Development Environment
 
@@ -55,6 +59,19 @@ Once the database has been created along with the user, run the following script
 ```bash
 npm run rebuild_database
 ```
+### Killing the script
+Run the following commands to ensure the database is populated. Once the relations are there, kill the script. We realize this is not the best way to manage this and are exploring alternative modules/methods. 
+
+```bash
+psql -U bv_user blueview_development 
+```
+Once in the sql prompt, run the following
+```bash
+\dt
+```
+```bash
+^C
+```
 
 ## Starting the Database
 
@@ -63,3 +80,5 @@ Once the database has been built, run the following command in any directory to 
 ```bash
 postgres
 ```
+
+
